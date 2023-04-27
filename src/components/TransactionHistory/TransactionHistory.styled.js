@@ -1,33 +1,37 @@
 import styled from "styled-components";
 
 export const TransactionTable = styled.table`
-    border-spacing: 0 10px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    border-collapse: collapse;
+    
 `
+    
 export const Thead = styled.thead`
 
 `
 export const Tr = styled.tr`
-
-`
-export const Th = styled.th`
-    padding: 10px 20px;
-    background: #56433D;
-    color: #F9C941;
-    border-right: 2px solid skyblue; 
-    font-size: 0.9em;
+background-color: #f2f2f2;
 `
 export const Tbody = styled.tbody`
+`
 
+export const Th = styled.th`
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: #f2f2f2; /* колір фону для заголовків */
+    color: #333;
 `
+
 export const Td = styled.td`
-    vertical-align: middle;
-    padding: 10px;
-    font-size: 14px;
-    text-align: center;
-    border: 2px solid skyblue;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
 `
+
+
+
+
+
+
+
+
